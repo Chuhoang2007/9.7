@@ -20,7 +20,7 @@ jobs:
         uses: dbelyaev/action-checkstyle@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          level: warning
+          level: error
 
       - name: Set up JDK 25
         uses: actions/setup-java@v4
