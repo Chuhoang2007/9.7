@@ -21,6 +21,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: error
+          fail_on_error: true
 
       - name: Set up JDK 25
         uses: actions/setup-java@v4
