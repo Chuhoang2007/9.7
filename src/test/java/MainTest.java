@@ -8,4 +8,5 @@ public class MainTest {
     public void testTinhTong() {
         assertEquals(10, Main.tinhTong(5, 5));
     }
+
 }
