@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Lop kiem thu cho Main de kiem tra cac phep tinh.
  */
-class MainTest {
+class MainTest{
 
     /**
      * Kiem tra tinh nang tinh tong cua lop Main.
