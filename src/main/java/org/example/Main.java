@@ -9,5 +9,4 @@ public class Main {
         logger.info("Đang tính tổng của {} và {}", a, b);
         return a + b;
     }
-
 }
